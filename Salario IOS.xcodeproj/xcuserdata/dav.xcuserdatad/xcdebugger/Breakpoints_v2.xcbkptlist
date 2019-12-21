@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Salario IOS/ViewController.swift"
+            timestampString = "593274685.916769"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Salario_IOS.ViewController.btnCalc.getter : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "Salario IOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dav/Desktop/Salario%20IOS/Salario%20IOS/ViewController.swift"
+                  timestampString = "593107383.445423"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "114">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Salario_IOS.ViewController.btnCalc.setter : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "Salario IOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dav/Desktop/Salario%20IOS/Salario%20IOS/ViewController.swift"
+                  timestampString = "593107383.461895"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Salario_IOS.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Salario_IOS.ViewController"
+                  moduleName = "Salario IOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dav/Desktop/Salario%20IOS/Salario%20IOS/ViewController.swift"
+                  timestampString = "593107383.471946"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "409">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Salario_IOS.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Salario_IOS.ViewController&gt;"
+                  moduleName = "Salario IOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dav/Desktop/Salario%20IOS/Salario%20IOS/ViewController.swift"
+                  timestampString = "593107383.481806"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "375">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Salario IOS/ViewController.swift"
+            timestampString = "593274685.917276"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "reset()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Salario IOS/ViewController.swift"
+            timestampString = "593274685.91766"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Salario_IOS.ViewController.txtInss.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Salario IOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dav/Desktop/Salario%20IOS/Salario%20IOS/ViewController.swift"
+                  timestampString = "593110076.805626"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "114">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Salario_IOS.ViewController.txtInss.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Salario IOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dav/Desktop/Salario%20IOS/Salario%20IOS/ViewController.swift"
+                  timestampString = "593110076.825065"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Salario_IOS.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Salario_IOS.ViewController"
+                  moduleName = "Salario IOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dav/Desktop/Salario%20IOS/Salario%20IOS/ViewController.swift"
+                  timestampString = "593110076.841082"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "169">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Salario_IOS.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Salario_IOS.ViewController&gt;"
+                  moduleName = "Salario IOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dav/Desktop/Salario%20IOS/Salario%20IOS/ViewController.swift"
+                  timestampString = "593110076.858148"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "138">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
