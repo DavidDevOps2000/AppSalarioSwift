@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Salario_IOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ew7-d2-6Gm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fundo" highlightedImage="fundo" highlighted="YES" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ve8-DH-WhE">
+                                <rect key="frame" x="-118" y="0.0" width="650" height="858"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Calculadora de INSS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="75C-Zq-A2e">
+                                <rect key="frame" x="50.666666666666657" y="89" width="274" height="37"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="0.0" height="4"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Salário à receber: R$" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PDL-mC-aMu">
+                                <rect key="frame" x="63" y="386" width="249" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="R$_____________________" minimumFontSize="23" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="fwv-w7-fZs">
+                                <rect key="frame" x="46" y="233" width="279" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" insetsLayoutMarginsFromSafeArea="NO" text="Desconto de INSS é" lineBreakMode="clip" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CtJ-1y-DQy">
+                                <rect key="frame" x="67.666666666666686" y="294.66666666666669" width="240" height="33.333333333333314"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Salario Bruto:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Bm-fK-Jiq">
+                                <rect key="frame" x="107" y="172" width="161" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hXD-Y6-MaU">
+                                <rect key="frame" x="81.666666666666686" y="488" width="212" height="50"/>
+                                <color key="backgroundColor" red="1" green="0.62505564250000001" blue="0.26531911000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="ReF-MI-hBC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <inset key="contentEdgeInsets" minX="50" minY="0.0" maxX="50" maxY="0.0"/>
+                                <state key="normal" title="Resetar">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="calcSalario" destination="BYZ-38-t0r" eventType="touchUpInside" id="R00-D9-yPR"/>
+                                    <action selector="reset" destination="BYZ-38-t0r" eventType="touchUpInside" id="5SP-yY-jX4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IIS-IF-v2l">
+                                <rect key="frame" x="24" y="605" width="327" height="50"/>
+                                <color key="backgroundColor" red="1" green="0.62505564250000001" blue="0.26531911000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="380.32999999999998" id="4jq-ti-gf5"/>
+                                    <constraint firstAttribute="width" constant="380" id="Enh-gI-nex"/>
+                                    <constraint firstAttribute="height" constant="50" id="Tek-3g-XMq"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="380.32999999999998" id="ucP-VO-Cfb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <inset key="contentEdgeInsets" minX="50" minY="0.0" maxX="50" maxY="0.0"/>
+                                <state key="normal" title="Calcular Salário">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="calcSalario" destination="BYZ-38-t0r" eventType="touchUpInside" id="AcD-wi-Wlf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="IIS-IF-v2l" firstAttribute="centerX" secondItem="Ew7-d2-6Gm" secondAttribute="centerX" id="0Fg-Lh-vm0"/>
+                            <constraint firstItem="fwv-w7-fZs" firstAttribute="centerX" secondItem="Ew7-d2-6Gm" secondAttribute="centerX" id="0qz-Ub-Og6"/>
+                            <constraint firstItem="o7K-de-xkT" firstAttribute="bottom" secondItem="IIS-IF-v2l" secondAttribute="bottom" constant="126" id="5L8-2H-v7H"/>
+                            <constraint firstItem="IIS-IF-v2l" firstAttribute="top" secondItem="hXD-Y6-MaU" secondAttribute="bottom" constant="64" id="6Qh-Tf-8RY"/>
+                            <constraint firstItem="9Bm-fK-Jiq" firstAttribute="top" secondItem="75C-Zq-A2e" secondAttribute="bottom" constant="46" id="7Zi-2D-qc0"/>
+                            <constraint firstItem="fwv-w7-fZs" firstAttribute="top" secondItem="9Bm-fK-Jiq" secondAttribute="bottom" constant="26.670000000000002" id="7aT-Ts-NwL"/>
+                            <constraint firstItem="75C-Zq-A2e" firstAttribute="top" secondItem="o7K-de-xkT" secondAttribute="top" constant="45" id="8ld-gg-8pr"/>
+                            <constraint firstItem="fwv-w7-fZs" firstAttribute="centerX" secondItem="Ew7-d2-6Gm" secondAttribute="centerX" id="C3I-PF-Fam"/>
+                            <constraint firstItem="hXD-Y6-MaU" firstAttribute="top" secondItem="PDL-mC-aMu" secondAttribute="bottom" constant="68" id="CcX-mk-vYD"/>
+                            <constraint firstItem="75C-Zq-A2e" firstAttribute="centerX" secondItem="Ew7-d2-6Gm" secondAttribute="centerX" id="GGI-G3-dpa"/>
+                            <constraint firstItem="IIS-IF-v2l" firstAttribute="centerX" secondItem="Ew7-d2-6Gm" secondAttribute="centerX" id="NyZ-JV-Gh8"/>
+                            <constraint firstItem="hXD-Y6-MaU" firstAttribute="centerX" secondItem="Ew7-d2-6Gm" secondAttribute="centerX" id="Q8r-Lv-IdO"/>
+                            <constraint firstItem="fwv-w7-fZs" firstAttribute="centerX" secondItem="Ew7-d2-6Gm" secondAttribute="centerX" id="Sgi-hg-9WT"/>
+                            <constraint firstItem="IIS-IF-v2l" firstAttribute="centerX" secondItem="Ew7-d2-6Gm" secondAttribute="centerX" id="U6I-Q9-MJW"/>
+                            <constraint firstItem="CtJ-1y-DQy" firstAttribute="centerX" secondItem="Ew7-d2-6Gm" secondAttribute="centerX" id="WIP-18-83K"/>
+                            <constraint firstItem="IIS-IF-v2l" firstAttribute="top" secondItem="hXD-Y6-MaU" secondAttribute="bottom" constant="64" id="bUM-ex-TcD"/>
+                            <constraint firstItem="fwv-w7-fZs" firstAttribute="centerX" secondItem="Ew7-d2-6Gm" secondAttribute="centerX" id="eGr-Xa-Q4Z"/>
+                            <constraint firstItem="9Bm-fK-Jiq" firstAttribute="centerX" secondItem="Ew7-d2-6Gm" secondAttribute="centerX" id="kqy-Is-nzu"/>
+                            <constraint firstItem="PDL-mC-aMu" firstAttribute="top" secondItem="CtJ-1y-DQy" secondAttribute="bottom" constant="58" id="nqV-ye-o8B"/>
+                            <constraint firstItem="PDL-mC-aMu" firstAttribute="centerX" secondItem="Ew7-d2-6Gm" secondAttribute="centerX" id="pWZ-pn-6di"/>
+                            <constraint firstItem="CtJ-1y-DQy" firstAttribute="top" secondItem="fwv-w7-fZs" secondAttribute="bottom" constant="28" id="rSG-s0-mIT"/>
+                            <constraint firstItem="PDL-mC-aMu" firstAttribute="centerX" secondItem="Ew7-d2-6Gm" secondAttribute="centerX" id="rZN-Xz-tlc"/>
+                            <constraint firstItem="PDL-mC-aMu" firstAttribute="centerX" secondItem="Ew7-d2-6Gm" secondAttribute="centerX" id="xMq-1t-mKR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="o7K-de-xkT"/>
+                    </view>
+                    <connections>
+                        <outlet property="btnCalc" destination="IIS-IF-v2l" id="b6H-2N-Du7"/>
+                        <outlet property="btnReset" destination="hXD-Y6-MaU" id="nrn-Sd-w0x"/>
+                        <outlet property="salBruto" destination="fwv-w7-fZs" id="h6f-sh-wNl"/>
+                        <outlet property="txtInss" destination="CtJ-1y-DQy" id="kex-m7-kKs"/>
+                        <outlet property="txtResul" destination="PDL-mC-aMu" id="tPj-rU-nNf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="91.625615763546804"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="fundo" width="650" height="800"/>
+    </resources>
+</document>
